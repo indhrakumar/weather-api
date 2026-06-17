@@ -90,7 +90,7 @@ const App = () => {
 
   return (
     <div className="bg-black/90 text-white h-screen flex flex-col items-center justify-center ">
-      <div className="bg-black/10 text-white shadow-[0_10px_15px_black] rounded-xl  py-2.5 w-95.5 cursor-default">
+      <div className="bg-black/30 text-white backdrop-blur-sm shadow-[0_10px_15px_black] rounded-xl  py-2.5 w-[80%] lg:w-3xl cursor-default">
         <h1
           className="text-center text-4xl italic font-bold uppercase mb-4"
           style={{ textShadow: "0 0 5px cyan" }}>
