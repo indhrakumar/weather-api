@@ -29,7 +29,11 @@ const WeatherDetails = ({
           <h1 className="text-xl font-medium">{country}</h1>
         </div>
         <div className="w-full h-40 flex justify-center">
-          <img src={icon} alt="Image" />
+          <img
+            src={icon}
+            alt="Image"
+            className="object-contain object-center"
+          />
         </div>
         <div>
           <h1 className="text-2xl font-light text-blue-300">{desc}</h1>
